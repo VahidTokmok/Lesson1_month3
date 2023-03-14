@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/black">
+
+        <TextView
+            style="@style/textStyle"
+            android:text="@string/name" />
+
+        <TextView
+            android:id="@+id/text_name"
+            style="@style/editTextStyle"/>
+
+        <TextView
+            style="@style/textStyle"
+            android:text="@string/surname" />
+
+        <TextView
+            android:id="@+id/text_surname"
+            style="@style/editTextStyle"/>
+
+        <TextView
+            style="@style/textStyle"
+            android:text="@string/age" />
+
+        <TextView
+            android:id="@+id/text_age"
+            style="@style/editTextStyle"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
